@@ -1,0 +1,18 @@
+<svg width="760" height="920" viewBox="0 0 760 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="920" fill="#E8DCCB"/>
+  <rect x="40" y="40" width="680" height="840" rx="34" fill="#F7F0E5" stroke="#161311" stroke-width="5"/>
+  <path d="M109 105H210" stroke="#8F1D19" stroke-width="7" stroke-linecap="round"/>
+  <path d="M109 133H178" stroke="#8F1D19" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="390" cy="332" r="125" fill="#E8DCCB" stroke="#161311" stroke-width="6"/>
+  <path d="M316 322C344 289 377 273 417 274C452 275 481 288 505 315" stroke="#8F1D19" stroke-width="6" stroke-linecap="round"/>
+  <path d="M358 358C377 341 401 333 430 334" stroke="#161311" stroke-width="5" stroke-linecap="round"/>
+  <path d="M260 693C274 548 329 476 386 476C447 476 500 550 513 693" fill="#E8DCCB"/>
+  <path d="M260 693C274 548 329 476 386 476C447 476 500 550 513 693" stroke="#161311" stroke-width="6" stroke-linecap="round"/>
+  <path d="M250 697H525" stroke="#8F1D19" stroke-width="4" stroke-linecap="round"/>
+  <path d="M570 212L631 149" stroke="#8F1D19" stroke-width="5" stroke-linecap="round"/>
+  <path d="M593 238L663 238" stroke="#8F1D19" stroke-width="5" stroke-linecap="round"/>
+  <path d="M139 747H315" stroke="#161311" stroke-width="3" stroke-linecap="round"/>
+  <path d="M139 779H250" stroke="#161311" stroke-width="3" stroke-linecap="round"/>
+  <path d="M139 811H292" stroke="#161311" stroke-width="3" stroke-linecap="round"/>
+  <text x="139" y="861" fill="#8F1D19" font-family="Manrope, sans-serif" font-size="26" letter-spacing="4">REPLACE WITH PORTRAIT</text>
+</svg>

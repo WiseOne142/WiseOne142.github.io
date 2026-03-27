@@ -1,0 +1,20 @@
+<svg width="760" height="720" viewBox="0 0 760 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="720" fill="#E8DCCB"/>
+  <rect x="42" y="42" width="676" height="636" rx="34" fill="#F7F0E5" stroke="#161311" stroke-width="5"/>
+  <path d="M111 143C204 108 294 144 366 194C447 250 532 296 651 283" stroke="#8F1D19" stroke-width="7" stroke-linecap="round"/>
+  <path d="M111 252C192 224 278 251 353 298C437 351 520 397 649 392" stroke="#161311" stroke-width="7" stroke-linecap="round"/>
+  <path d="M111 361C195 335 282 364 356 415C436 470 517 517 649 501" stroke="#8F1D19" stroke-width="7" stroke-linecap="round"/>
+  <path d="M111 471C199 445 286 476 365 527C449 582 529 617 649 607" stroke="#161311" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#161311">
+    <rect x="108" y="108" width="16" height="40" rx="6"/>
+    <rect x="108" y="218" width="16" height="40" rx="6"/>
+    <rect x="108" y="328" width="16" height="40" rx="6"/>
+    <rect x="108" y="438" width="16" height="40" rx="6"/>
+    <rect x="108" y="548" width="16" height="40" rx="6"/>
+    <rect x="638" y="168" width="16" height="40" rx="6"/>
+    <rect x="638" y="278" width="16" height="40" rx="6"/>
+    <rect x="638" y="388" width="16" height="40" rx="6"/>
+    <rect x="638" y="498" width="16" height="40" rx="6"/>
+  </g>
+  <text x="110" y="634" fill="#8F1D19" font-family="Manrope, sans-serif" font-size="26" letter-spacing="4">ESSAYS, NOTES, AND LONGFORM WORK</text>
+</svg>
