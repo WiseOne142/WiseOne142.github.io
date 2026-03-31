@@ -207,6 +207,12 @@ h1 {
   margin-bottom: 18px;
 }
 
+.page-title-minimal {
+  font-size: clamp(2.2rem, 3vw, 2.9rem);
+  line-height: 1;
+  margin-bottom: 0;
+}
+
 h2 {
   font-size: clamp(2.2rem, 3.5vw, 3rem);
   line-height: 0.98;
@@ -290,8 +296,20 @@ p {
 
 .contact-block {
   display: grid;
-  gap: 14px;
+  gap: 24px;
   width: min(100%, 520px);
+}
+
+.contact-entry {
+  display: grid;
+  gap: 8px;
+}
+
+.contact-label {
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .contact-link {
