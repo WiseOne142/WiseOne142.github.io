@@ -52,6 +52,8 @@ assertIncludes("writing.html", "One Dead Snake");
 assertIncludes("writing.html", "assets/pdfs/a-creek-in-a-plain-city-mudd.pdf");
 assertIncludes("writing.html", "assets/pdfs/one-dead-snake-2.pdf");
 assertNotIncludes("writing.html", "PDF forthcoming");
+assertIncludes("writing.html", "page-header-stack");
+assertIncludes("writing.html", "header-content-block");
 
 assertIncludes("projects.html", "project-intro");
 assertIncludes("projects.html", "Selected roles and projects");
@@ -65,9 +67,14 @@ for (const name of [
   assertIncludes("inspirations.html", name);
 }
 assertIncludes("inspirations.html", "assets/pdfs/website-page-inspo.pdf");
+assertIncludes("inspirations.html", "page-header-stack");
+assertIncludes("inspirations.html", "header-content-block");
 
 assertIncludes("contact.html", "creek-shiner.jpg");
 assertIncludes("contact.html", "landscape-card");
+assertIncludes("contact.html", "page-header-stack");
+assertIncludes("contact.html", "header-content-block");
+assertIncludes("contact.html", "contact-grid");
 
 for (const file of [
   "index.html",

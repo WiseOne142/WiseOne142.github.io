@@ -241,6 +241,29 @@ p {
   gap: 16px;
 }
 
+.page-header-stack {
+  align-content: start;
+}
+
+.header-content-block {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.header-content-block h2 {
+  font-size: clamp(1.9rem, 2.6vw, 2.45rem);
+}
+
+.header-content-block .listing {
+  margin-top: 0;
+  gap: 14px;
+}
+
+.header-content-block .listing-item {
+  padding-top: 14px;
+}
+
 .section-note,
 .project-intro {
   max-width: 54ch;
@@ -393,7 +416,13 @@ a.status-pill:focus-visible {
 .contact-block {
   display: grid;
   gap: 24px;
-  width: min(100%, 520px);
+  width: min(100%, 640px);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
 }
 
 .landscape-card {
@@ -424,6 +453,7 @@ a.status-pill:focus-visible {
 .contact-entry {
   display: grid;
   gap: 8px;
+  min-width: 0;
 }
 
 .contact-label {
@@ -436,9 +466,15 @@ a.status-pill:focus-visible {
 .contact-link {
   width: fit-content;
   font-size: clamp(1.2rem, 2vw, 1.6rem);
+  max-width: 100%;
   text-decoration: none;
   border-bottom: 1px solid rgba(143, 29, 25, 0.32);
   transition: color 180ms ease, border-color 180ms ease;
+}
+
+.contact-grid .contact-link {
+  font-size: clamp(1.02rem, 1.25vw, 1.18rem);
+  overflow-wrap: anywhere;
 }
 
 .contact-link:hover,
@@ -516,6 +552,10 @@ a.status-pill:focus-visible {
   .inspo-banner {
     position: static;
     min-height: auto;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 
   .portrait-card,
